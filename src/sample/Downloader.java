@@ -54,7 +54,7 @@ public class Downloader {
                 folder.mkdir();
             }
 
-            //get the zip file content
+            //достаём файлы из архива
             ZipInputStream zis =
                     new ZipInputStream(new FileInputStream(zipFile));
             //get the zipped file list entry
